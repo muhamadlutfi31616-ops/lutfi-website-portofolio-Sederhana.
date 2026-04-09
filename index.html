@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Sederhana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Muhamad<span> Lutfi</span></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>Programmer.</h1>
+            <span class="typing-text">Karyawan Swasta || ADM Oprasional</span>
+            <p>Belajar coding bukan perlombaan,Tidak ada kata terlambat untuk memulai, dan investasi terbaik adalah investasi pada kemampuan diri kita sendiri.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/muhamad-lutfi-98285a401/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiQyC2yQEREeuWqUGX4%2F0wg%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:muhamadlutfi31616@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/viloet_21616/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/087777863393"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="#projects" class="btn">Lihat Projects</a>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="foto .png" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+
+            <div class="about-text">
+                <p>Terus belajar coding,karena coding adalah proses mempelajari bahasa pemrograman untuk membuat aplikasi, website, atau sistem yang dapat dijalankan oleh komputer,dan itu menyenangkan.</p>
+                <div class="skills">
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <p>Admin Operasional adalah tim yang bertanggung jawab untuk mengelola dan memastikan operasional sistem berjalan lancar dan efisien,itulah pengalaman kerja yang saya lakukan kurang lebih 5 tahun.</p>
+                <div class="skills">
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                </div>
+            </div> 
+
+            <div class="about-text">
+                <p>Individu yang teliti, pekerja keras, dan mampu menyesuaikan diri dengan cepat di lingkungan kerja yang dinamis.</p>
+                <div class="skills">
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                    <span class="skill-tag"></span>
+                </div>
+            </div> 
+
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <img src="my.project/2.jpeg" alt="Project 1">
+                <div class="project-layer">
+                    <h4>Belajar Frontend</h4>
+                    <p>Berfokus pada apa yang dilihat dan digunakan langsung oleh pengguna di layar perangkat..</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="my.project/1.jpeg" alt="Project 2">
+                <div class="project-layer">
+                    <h4>Belajar Backend</h4>
+                    <p>Berfokus pada logika, penyimpanan data, dan keamanan yang tidak terlihat oleh pengguna,Mulai dengaan yang paling sederhana yaitu spreadsheet</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="my.project/3.jpeg" alt="Project 3">
+                <div class="project-layer">
+                    <h4>Pertama kali membuat website wedding</h4>
+                    <p>Jangan menunggu hari yang tepat untuk memulai. Mulailah, maka hari itu akan menjadi tepat.</p>
+                    <a href="https://muhamadlutfi31616-ops.github.io/wedding-website-modif/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form" name="submit-to-google-sheet">
+            <div class="input-group">
+                <input type="text"placeholder="Nama Lengkap" name="nama"required>
+                <input type="email"placeholder="Alamat Email" name="email"required>
+            </div>
+
+            <textarea cols="30" rows="10"placeholder="Pesan Anda" name="pesan"required></textarea>
+
+            <button type="submit" class="btn" id="submit-btn">Kirim Pesan</button>
+
+            <div id="status-message" style="margin-top: 10px; font-weight: bold;"></div>
+
+        </form>
+    </section>
+
+    <footer>      
+        <p>&copy; 2026 ||<a href="#home"| All Rights Reserved.a><span>@Muhamad Lutfi</span></p>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
