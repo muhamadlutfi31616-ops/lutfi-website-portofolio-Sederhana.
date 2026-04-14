@@ -15,6 +15,13 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
+// Tutup menu saat link diklik (diluar mobile)
+document.addEventListener('click', function (e) {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');   
+    };
+    });
+
 // Scroll Active Link Highlighting
 const sections = document.querySelectorAll('section');
 const navItems = document.querySelectorAll('.nav-links a');
